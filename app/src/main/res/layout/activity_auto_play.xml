@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#BCCAEA"
+    tools:context=".MainActivity">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textColor="#EFA712"
+            android:layout_gravity="end"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/restore"
+            android:src="@drawable/ic_restore_black_24dp"/>
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:onClick="BtnClick"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginRight="5pt"
+            android:text="" />
+    </TableRow>
+</TableLayout>
